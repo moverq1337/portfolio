@@ -11,7 +11,7 @@ const About = () => {
 			<div className='flex flex-wrap'>
 				<motion.div
 					whileInView={{ opacity: 1, x: 0 }}
-					initial={{ opacity: 0, x: -500 }}
+					initial={{ opacity: 0, x: -200 }}
 					transition={{ duration: 1 }}
 					className='w-full lg:w-1/2 lg:p-8'
 				>
@@ -21,7 +21,7 @@ const About = () => {
 				</motion.div>
 				<motion.div
 					whileInView={{ opacity: 1, x: 0 }}
-					initial={{ opacity: 0, x: 400 }}
+					initial={{ opacity: 0, x: 200 }}
 					transition={{ duration: 1 }}
 					className='w-full lg:w-1/2'
 				>
